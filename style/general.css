@@ -1,0 +1,98 @@
+/*
+****** 01 TYPOGRAFY SYSTEM ******
+
+-- Font size  (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- Font Weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+-- Line Heights
+Default: 1
+small: 1.05
+Medium: 1.2
+paragraph default: 1.6
+large: 1.8
+
+-- letter-spacing
+0.75px;
+
+
+****** 02 COLOR SYSTEM ******
+- Primary: #e67e22 
+- Tints: #fdf2e9
+ #fae5d3
+
+- Shades: #cf711f
+- Accents:
+- Greys: #555 #333
+- #6f6f6f
+
+
+****** 03 SHADWS SYSTEM ******
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+
+****** 04 BORDER-RADIUS SYSTEM ******
+default: 9px
+
+****** 05 SPACING SYSTEM (PX) ******
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik";
+  line-height: 1.7;
+  font-weight: 400;
+  color: #444;
+  /* border: 1px solid black; */
+}
+
+/**********************************
+* GENERAL REUSABLE COMPONENTS *
+**********************************/
+
+header {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  padding: 3.2rem;
+  background-color: bisque;
+}
+
+nav {
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 10rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  align-items: center;
+  gap: 4.8rem;
+  margin-top: 3.2rem;
+}
+
+.petList {
+  display: flex;
+  gap: 3.3rem;
+}
+
+.newPetProfile {
+  display: none;
+}
